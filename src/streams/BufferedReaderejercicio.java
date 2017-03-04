@@ -31,7 +31,7 @@ public class BufferedReaderejercicio {
             while ((linea = buffer.readLine()) != null) {
                 System.out.println(linea);
             }
-            reader.close();
+           
         } catch (FileNotFoundException e) {
             System.out.println("No se encontró el archivo");
 
