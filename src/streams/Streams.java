@@ -19,9 +19,7 @@ import java.util.logging.Logger;
  */
 public class Streams {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
         FileWriter writer = null;
         FileReader reader = null;
